@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form>
+      
+      <div>
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <div>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+      </div>
+
+      <div>
+        <label for="gender">Gender</label><br>
+        <select id="gender" name="gender">
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <button type="submit">Register</button>
+
+    </form>
+  </div>
+</body>
+</html>
